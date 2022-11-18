@@ -40,6 +40,9 @@ class TodoView extends StatelessWidget {
                 ),
               ),
             ),
+            const Expanded(
+              child: Center(child: Text('No task yet!'),),
+            )
           ]
       ),
     );
